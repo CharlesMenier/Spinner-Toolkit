@@ -1,0 +1,9 @@
+#shapePreview {
+  text-align: center;
+  margin: 50px;
+  padding: 70px;
+  box-shadow: 0 0 5px 1px rgba(171,171,171,1);
+  border-radius: 15px;
+  height: 120px;
+  width: 120px;
+}

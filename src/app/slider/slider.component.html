@@ -1,0 +1,6 @@
+<div>
+  <p>{{value}}</p>
+  <label>{{name}}
+    <input [(ngModel)]="value" (ngModelChange)="update($event)" type="range" min="{{min}}" max="{{max}}">
+  </label>
+</div>

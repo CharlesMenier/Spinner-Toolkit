@@ -1,0 +1,7 @@
+<div>
+  <shape-preview [shape]="shape"></shape-preview>
+  <slider [(value)]="shape.height" name="Height" min="10" max="70"></slider>
+  <slider [(value)]="shape.width" name="Width"  min="10" max="70"></slider>
+  <slider [(value)]="shape.rotation" name="Rotation" min="0" max="360"></slider>
+  <input [value]="shape.color" [style.background]="shape.color" [(colorPicker)]="shape.color"/>
+</div>

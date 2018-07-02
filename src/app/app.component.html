@@ -1,9 +1,18 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div id="appContainer">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <shape-editor></shape-editor>
-  <spinner-preview></spinner-preview>
+  <shape-preview [shape]="shape"></shape-preview>
+  <spinner-preview [shape]="shape" [number]="number" [horizontalSpace]="widthSpace" [verticalSpace]="heightSpace"></spinner-preview>
+  <slider [(value)]="shape.height" name="Height" min="10" max="70"></slider>
+  <slider [(value)]="shape.width" name="Width"  min="10" max="70"></slider>
+  <slider [(value)]="shape.rotation" name="Rotation" min="0" max="360"></slider>
+  <slider [(value)]="shape.borderRadius" name="Border radius" min="0" max="50"></slider>
+  <slider [(value)]="widthSpace" name="Horizontal space" min="0" max="50"></slider>
+  <slider [(value)]="heightSpace" name="Vertical space" min="0" max="50"></slider>
+  <label>Color
+    <input [value]="shape.color" [style.background]="shape.color" [(colorPicker)]="shape.color"/>
+  </label>
+  <label>Number of shapes
+    <input type="number" [(ngModel)]="number" min="1" max="15"/>
+  </label>
 </div>
 

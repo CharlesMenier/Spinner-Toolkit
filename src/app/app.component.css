@@ -1,0 +1,7 @@
+#appContainer {
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+  box-shadow: 0 0 5px 1px rgba(171,171,171,1);
+  border-radius: 15px;
+}

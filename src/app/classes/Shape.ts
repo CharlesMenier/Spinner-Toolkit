@@ -3,4 +3,5 @@ export class Shape {
   height: number;
   color: string;
   rotation: number;
+  borderRadius: number;
 }

@@ -1,0 +1,99 @@
+.sliderInput {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 10px 0;
+}
+.sliderInput:focus {
+  outline: none;
+}
+.sliderInput::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  background: rgba(240, 123, 69, 0.62);
+  border-radius: 12px;
+  border: 0px solid rgba(1, 1, 1, 0);
+}
+.sliderInput::-webkit-slider-thumb {
+  box-shadow: 0 0px 1px #7b6c57, 0px 0px 0px #8a7962;
+  border: 1.8px solid #00b289;
+  height: 25px;
+  width: 23px;
+  border-radius: 18px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -10px;
+}
+.sliderInput:focus::-webkit-slider-runnable-track {
+  background: rgba(244, 160, 121, 0.62);
+}
+.sliderInput::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  background: rgba(240, 123, 69, 0.62);
+  border-radius: 12px;
+  border: 0px solid rgba(1, 1, 1, 0);
+}
+.sliderInput::-moz-range-thumb {
+  box-shadow: 0px 0px 1px #7b6c57, 0px 0px 0px #8a7962;
+  border: 1.8px solid #00b289;
+  height: 25px;
+  width: 23px;
+  border-radius: 18px;
+  background: #ffffff;
+  cursor: pointer;
+}
+.sliderInput::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.sliderInput::-ms-fill-lower {
+  background: rgba(234, 87, 19, 0.62);
+  border: 0px solid rgba(1, 1, 1, 0);
+  border-radius: 24px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+}
+.sliderInput::-ms-fill-upper {
+  background: rgba(240, 123, 69, 0.62);
+  border: 0px solid rgba(1, 1, 1, 0);
+  border-radius: 24px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+}
+.sliderInput::-ms-thumb {
+  box-shadow: 0px 0px 1px #7b6c57, 0px 0px 0px #8a7962;
+  border: 1.8px solid #00b289;
+  height: 25px;
+  width: 23px;
+  border-radius: 18px;
+  background: #ffffff;
+  cursor: pointer;
+  height: 5px;
+}
+.sliderInput:focus::-ms-fill-lower {
+  background: rgba(240, 123, 69, 0.62);
+}
+.sliderInput:focus::-ms-fill-upper {
+  background: rgba(244, 160, 121, 0.62);
+}
+
+.sliderContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.sliderValue {
+  font-size: 17pt;
+  flex: 1;
+}
+
+.sliderLabel {
+  flex: 5;
+}

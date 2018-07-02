@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { SliderComponent } from './slider/slider.component';
 import { SpinnerPreviewComponent } from './spinner-preview/spinner-preview.component';
 import { ShapePreviewComponent } from './shape-preview/shape-preview.component';
-import { ShapeEditorComponent } from './shape-editor/shape-editor.component';
 
 import { ColorPickerModule } from 'ngx-color-picker';
 
@@ -16,7 +15,6 @@ import { ColorPickerModule } from 'ngx-color-picker';
     SliderComponent,
     SpinnerPreviewComponent,
     ShapePreviewComponent,
-    ShapeEditorComponent,
   ],
   imports: [
     BrowserModule,

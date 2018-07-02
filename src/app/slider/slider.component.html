@@ -1,6 +1,6 @@
-<div>
-  <p>{{value}}</p>
-  <label>{{name}}
-    <input [(ngModel)]="value" (ngModelChange)="update($event)" type="range" min="{{min}}" max="{{max}}">
+<div class="sliderContainer">
+  <p class="sliderValue">{{value}}</p>
+  <label class="sliderLabel">{{name}}
+    <input class="sliderInput" [(ngModel)]="value" (ngModelChange)="update($event)" type="range" min="{{min}}" max="{{max}}">
   </label>
 </div>
